@@ -147,6 +147,8 @@ footer {
 baseball {
     position: relative;
     margin-bottom: 50px;
+    margin-right: 80px;
+    margin-left: 15px;
 }
 
 #baseball {
@@ -181,6 +183,8 @@ soccer {
 calendar {
     position: relative;
     margin-bottom: 50px;
+    margin-right: 95px;
+    margin-left: 15px;
 }
 
 #calendar {
@@ -217,6 +221,7 @@ schedule {
 boardgame{
     position: relative;
     margin-bottom: 40px;
+    margin-left: 15px;
 }
 
 #boardgame{
