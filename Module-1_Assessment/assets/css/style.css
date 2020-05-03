@@ -1,12 +1,20 @@
 body {
     text-align: center;
+    background-image: url(../images/trees.png);
+    background-size: cover;
+    background-attachment: auto;
 }
 header {
     font-family: Georgia, 'Times New Roman', Times, serif;
     color: #777777;
-    position: relative;
+    background-color: white;
+}
+
+navbar {
     width: 960px;
+    position: relative;
     display: inline-block;
+    background-color: white;
 }
 
 .brianmyung {
@@ -32,10 +40,6 @@ nav {
 }
 
 main {
-    background-image: url(../images/trees.png);
-    background-size: auto;
-    background-attachment: auto;
-    background-color: white;
     border-top: 2px solid #cccccc;
     height: 900px;
 }
