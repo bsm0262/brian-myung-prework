@@ -1,0 +1,132 @@
+body {
+    text-align: center;
+}
+header {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: #777777;
+    position: relative;
+    width: 960px;
+    display: inline-block;
+}
+
+.brianmyung {
+    background-color: #4aaaa5;
+    color:white;
+    line-height: 100px;
+    width: 300px;
+    text-align: center;
+    margin-bottom: 0;
+}
+
+nav {
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #777777;
+}
+
+.links123 {
+    line-height: 100px;
+    word-spacing: 20px;
+}
+
+main {
+    background-image: url(../images/trees.png);
+    background-size: auto;
+    background-attachment: auto;
+    background-color: white;
+    border-top: 2px solid #cccccc;
+    height: 900px;
+}
+
+div{
+    width: 960px;
+    background-color: white;
+    display: inline-block;
+    padding: 30px;
+    border: 1px solid #dddddd;
+    margin-top: 20px;
+}
+
+.aboutme {
+    border-bottom: 2px solid #cccccc;
+    color: #4aaaa5;
+    text-align: left;
+    line-height: 60px;
+    height: 100px;
+}
+
+.contactme {
+    border-bottom: 2px solid #cccccc;
+    color: #4aaaa5;
+    text-align: left;
+    line-height: 60px;
+    height: 100px;
+}
+
+
+p {
+    font-family: Arial, Helvetica, sans-serif;
+    color: #777777;
+    text-align: left;
+    line-height: 2;
+}
+
+section {
+    padding-top: 30px;
+}
+
+img {
+    float: left;
+    width: 140px;
+    margin-right: 20px;
+    margin-bottom: 10px;
+}
+
+.intro2 {
+    margin-top: 20px;
+}
+
+footer {
+    background-color: #666666;
+    color: white;
+    border-top: 5px solid #4aaaa5;
+    height: 50px;
+}
+
+#nameform {
+    float: left;
+    color: #777777;
+}
+
+#emailform {
+    float: left;
+    color: #777777;
+    margin-top: 10px;
+}
+
+#messageform {
+    float: left;
+    color: #777777;
+    margin-top: 10px;
+}
+
+#copyright {
+    margin-bottom: -20px;
+    margin-left:auto;
+    margin-right: auto;
+    font-size: 10px;
+}
+
+.messagebox {
+    height: 200px;
+}
+
+.submitbutton {
+    color: white;
+    background-color: #4aaaa5;
+    width: 100px;
+    text-align: center;
+    margin-top: 20px;
+}

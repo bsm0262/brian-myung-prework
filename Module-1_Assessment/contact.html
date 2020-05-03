@@ -2,41 +2,43 @@
 <html lang="en-us">
 
 <head>
-    <meta name="viewport" content="device-width, initial-scale=1.0">
-    <title>Conntact Me</title>
+<meta name="viewport" content="device-width, initial-scale=1.0">
+    <title>Contact Me</title>
+    <link rel="stylesheet" type="text/css" href="assets/css/bootstrap.css">
     <link rel="stylesheet" type="text/css" href="assets/css/style.css">
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+</head>
 
-<header class="narrow">
-    <nav class="row">
-        <h1 class="col-sm-3">Brian Myung</h1>
-        <h3 class="col-sm-3">About</h3>
-        <h3 class="col-sm-3">Portfolio</h3>
-        <h3 class="col-sm-3">Contact</h3>
-    </nav>
-</header>
+<body>
+    <header>
+        <h1 class="brianmyung">Brian Myung</h1>
+        <nav>
+            <p class="links123">About Portfolio Contact</p>
+        </nav>
+    </header>
 
-<contact-form>
-    <h1>Contact</h1>
-    <div class="form-group">
-        <label for=exampleInputName1">Name</label>
-        <input type="name" class="form-control" id="exampleInputName1" aria-describedby="nameHelp" placeholder="Name">
-    </div>
-    <div class="form-group">
-        <label for=exampleInputEmail1">Email</label>
-        <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="example@gmail.com">
-    </div>
-    <div class="form-group">
-        <label for=exampleInputMessage">Message</label>
-        <input type="message" class="form-control" id="exampleInputMessage" aria-describedby="messageHelp">
-        <input class="btn btn-primary" type="submit" value="Submit">
-    </div>
- 
-</contact-form>
+    <main>
+        <div>
+            <h1 class="contactme">Contact</h1>
+            <contact-form>
+                <label for="name" id="nameform">Name</label>
+                <input type="text" placeholder="John Doe" class="form-control">
+            </contact-form>
+            <contact-form>
+                <label for="email" id="emailform">Email</label>
+                <input type="text" placeholder="example@gmail.com" class="form-control">
+            </contact-form>
+            <contact-form>
+                <label for="message" id="messageform">Message</label>
+                <input type="text" class="form-control messagebox">            
+            </contact-form>
+            <p class="submitbutton">Submit</p>
+        </div>
 
-<footer>
-    <h6>Copyright ©</h6>
-   </footer>
-   
-   </head>
-   </html>
+    </main>
+
+<footer class= "navbar fixed-bottom">
+    <h6 id="copyright">Copyright ©</h6>
+</footer>
+
+</body>
+</html>
