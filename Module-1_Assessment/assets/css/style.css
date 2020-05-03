@@ -65,6 +65,14 @@ div{
     height: 100px;
 }
 
+.portfolio {
+    border-bottom: 2px solid #cccccc;
+    color: #4aaaa5;
+    text-align: left;
+    line-height: 60px;
+    height: 100px;
+}
+}
 
 p {
     font-family: Arial, Helvetica, sans-serif;
@@ -75,17 +83,18 @@ p {
 
 section {
     padding-top: 30px;
+    text-align: left;
 }
 
-img {
+.profilepic {
     float: left;
-    width: 140px;
+    width: 120px;
     margin-right: 20px;
     margin-bottom: 10px;
 }
 
 .intro2 {
-    margin-top: 20px;
+    margin-top: 30px;
 }
 
 footer {
@@ -129,4 +138,91 @@ footer {
     width: 100px;
     text-align: center;
     margin-top: 20px;
+}
+
+baseball {
+    position: relative;
+    margin-bottom: 50px;
+}
+
+#baseball {
+    background-color: #4aaaa5;
+    margin-right: 25px;
+    color: white;
+    height: 35px;
+    line-height: 35px;
+    text-align: center;
+    position: absolute;
+    top: 120px;
+    width: 255px;
+}
+
+soccer {
+    position: relative; 
+    margin-bottom: 50px;
+}
+
+#soccer {
+    background-color: #4aaaa5;
+    margin-right: 25px;
+    color: white;
+    height: 35px;
+    line-height: 35px;
+    text-align: center;
+    position: absolute;
+    top: 120px;
+    width: 255px;
+}
+
+calendar {
+    position: relative;
+    margin-bottom: 50px;
+}
+
+#calendar {
+    background-color: #4aaaa5;
+    margin-right: 25px;
+    color: white;
+    height: 35px;
+    line-height: 35px;
+    text-align: center;
+    position: absolute;
+    top: 120px;
+    width: 255px;
+}
+
+
+schedule {
+    margin-left: -15px;
+    position: relative;
+    margin-bottom: 50px;
+}
+
+#schedule {
+    background-color: #4aaaa5;
+    margin-right: 25px;
+    color: white;
+    height: 35px;
+    line-height: 35px;
+    text-align: center;
+    position: absolute;
+    top: 120px;
+    width: 255px;
+}
+
+boardgame{
+    position: relative;
+    margin-bottom: 40px;
+}
+
+#boardgame{
+    background-color: #4aaaa5;
+    margin-right: 25px;
+    color: white;
+    height: 35px;
+    line-height: 35px;
+    text-align: center;
+    position: absolute;
+    top: 120px;
+    width: 255px;
 }
