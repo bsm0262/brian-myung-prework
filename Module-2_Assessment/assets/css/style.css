@@ -1,0 +1,38 @@
+body {
+    background-color: #eeeeee;
+    padding-top: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+    background: url("../images/backgroundimage.jpg") no-repeat;
+    background-size: cover;
+}
+.container {
+    text-align: center;
+}
+
+h1,h2,h3,
+h4,h5,h6 {
+    padding: 5px;
+    background-color: orange;
+}
+#mario {
+    display: block;
+}
+
+
+#currentWord {
+    letter-spacing: 10px;
+}
+
+#titlename {
+    line-height: 250px;    
+}
+
+.gameplay-column {
+    padding-top: 20px;
+    border: 3px dashed #fff;
+    text-align: center;
+    margin-top: 20px;
+    min-height: 500px;
+    background-color: beige;
+}
