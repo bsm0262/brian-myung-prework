@@ -3,7 +3,7 @@ body {
     padding-top: 20px;
     font-family: Arial, Helvetica, sans-serif;
     color: black;
-    background: url("../images/backgroundimage.jpg") no-repeat;
+    background: url("../images/backgroundimage.png") no-repeat;
     background-size: cover;
 }
 .container {
