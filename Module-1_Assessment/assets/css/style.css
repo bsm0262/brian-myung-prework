@@ -26,17 +26,27 @@ navbar {
     margin-bottom: 0;
 }
 
-nav {
+.nav {
     position: absolute;
-    top: 0px;
+    top: 40px;
     right: 0px;
     font-family: Arial, Helvetica, sans-serif;
     color: #777777;
 }
 
-.links123 {
-    line-height: 100px;
-    word-spacing: 20px;
+#contactButton {
+    margin-left: 20px;
+}
+
+#portfolioButton {
+    margin-left: 20px;
+    padding-right: 20px;
+    border-right: 1px solid #dddddd;
+}
+
+#aboutButton {
+    border-right: 1px solid #dddddd;
+    padding-right: 20px;
 }
 
 main {
@@ -59,6 +69,7 @@ div{
     text-align: left;
     line-height: 60px;
     height: 100px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
 .contactme {
@@ -67,6 +78,7 @@ div{
     text-align: left;
     line-height: 60px;
     height: 100px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
 .portfolio {
@@ -75,6 +87,7 @@ div{
     text-align: left;
     line-height: 60px;
     height: 100px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
 }
 }
 
@@ -97,8 +110,9 @@ section {
     margin-bottom: 10px;
 }
 
-.intro2 {
-    margin-top: 30px;
+.introContent {
+    color: #777777;
+    line-height: 26px;
 }
 
 footer {
@@ -142,6 +156,8 @@ footer {
     width: 100px;
     text-align: center;
     margin-top: 20px;
+    height: 35px;
+    line-height: 35px;
 }
 
 baseball {

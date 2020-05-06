@@ -1,0 +1,28 @@
+body {
+  text-transform: uppercase;
+  background-color: #87ceeb;
+}
+h1 {
+  font-size: 100px;
+  color: white;
+  margin-bottom: 40px;
+}
+.navbar {
+  font-family: Arial, Helvetica, sans-serif;
+  color: white;
+  font-weight: 1000;
+}
+.container {
+  margin-top: 300px;
+}
+.jumbotron {
+  background-color: #87ceeb;
+}
+.quote {
+  border:2px solid white;
+  color:white;
+  margin-right: 445px;
+  margin-left: 445px;
+  padding-top: 2px;
+  padding-bottom: 2px;
+}
