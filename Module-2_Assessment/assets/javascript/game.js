@@ -88,7 +88,12 @@ function checkWin() {
         hasFinished = true;
         currentWord = wordList[currentWordIndex];
         document.getElementById("answerImage").src = "assets/images/" + currentWord + ".png";
+        resetGame();
     } else if (remainingGuesses === 0) {
         resetGame();
     }
 };
+
+
+    
+  
